@@ -1,0 +1,86 @@
+                    body{
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #e3f2fd, #f4f6f9);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    margin:0;
+}
+.glr-box{
+    background:white;
+    padding:40px;
+    width:350px;
+    border-radius:15px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.2);
+    text-align:center;
+}
+
+.container{
+    width:420px;
+    background:white;
+    padding:40px;
+    border-radius:20px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.15);
+    transition:0.3s;
+}
+
+.container:hover{
+    transform:translateY(-5px);
+}
+
+/* Heading */
+h2{
+    text-align:center;
+    margin-bottom:25px;
+    color:#2c3e50;
+}
+
+.form-group{
+    margin-bottom:18px;
+}
+
+label{
+    display:block;
+    font-weight:600;
+    margin-bottom:6px;
+    color:#555;
+}
+
+input[type="file"],
+select{
+    width:100%;
+    padding:12px;
+    border:1px solid #ccc;
+    border-radius:10px;
+    font-size:14px;
+    transition:0.3s;
+}
+
+/* Focus effect */
+input:focus,
+select:focus{
+    border-color:#28a745;
+    box-shadow:0 0 6px rgba(40,167,69,0.3);
+    outline:none;
+}
+
+button{
+    width:100%;
+    padding:14px;
+    background:linear-gradient(135deg,#28a745,#34d058);
+    color:white;
+    border:none;
+    border-radius:10px;
+    font-size:15px;
+    font-weight:bold;
+    cursor:pointer;
+    transition:0.3s;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+button:hover{
+    transform:translateY(-3px) scale(1.03);
+    box-shadow:0 8px 20px rgba(0,0,0,0.2);
+}
+    
